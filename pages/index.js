@@ -77,8 +77,8 @@ export default function Home() {
           <button onClick={onInteract('play')}>Start</button>
           <button onClick={onInteract('pause')}>Pause</button>
           <button onClick={onInteract('stop')}>Stop</button>
-          <button onClick={setSpeed(speed + 0.5)}>Speed +</button>
           <button onClick={setSpeed(speed - 0.5)}>Speed -</button>
+          <button onClick={setSpeed(speed + 0.5)}>Speed +</button>
         </div>
       </div>
     </div>
