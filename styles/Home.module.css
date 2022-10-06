@@ -20,9 +20,10 @@
 .container {
   left: 50%;
   transform: translateX(-50%);
-  top: 120px;
+  justify-content: center;
   position: fixed;
   width: 500px;
+  height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
